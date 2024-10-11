@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #E7F0DC;
+    height: 100vh;
+}
+
+.cabeçalho {
+    max-width: 1280;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+h2.titulo {
+    color: #597445;
+    font-size: 38px;
+    text-align: center;
+}
+button:hover {
+    box-shadow: 0px 0px 8px #597445;
+    transform: scale (1.05);}
+/* CABEÇALHO */
+header {
+    padding: 30px 4%;
+}
+
+header > .cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #597445;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #729762;
+    transform: scale(1.15);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block; 
+    padding: 0 20px;
+}
+
+header .btn-contato button {
+    padding: 5px 4opx;
+    font-size: 18px;
+    font-weight: 400;
+    color: #597445;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+/* ESTILO TOPO DO SITE */
+section.topo-do-site {
+    padding: 40px 4%;
+}
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+color: #597445;
+font-size: 38px;
+line-height: 40px;
+}
+
+
+
+.topo-do-site .txt-topo-site p {
+    color: black;
+    margin:5px 0;
+}
+
+.topo-do-site .imgtopo {
+    position: relative;
+    animation: flutuar 4s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.color1 {
+    color: #597445;
+    align-items: center;
+}
+
+
+/* PROJETOS */
+
+
+section.PROJETOS {
+    padding: 40px 4%;
+}
+section.PROJETOS .flex{
+    gap: 60px;
+
+}
+
+.PROJETOS .PROJETOS-box {
+    color: black;
+    padding: 40px;
+    border: 2px solid #729762;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.PROJETOS .PROJETOS-box h3 {
+    font-size: 28px;
+    margin: 15px;
+}
+.PROJETOS .PROJETOS-box:houver {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #729762;
+}
+
+.titulo h2 {
+    color: #597445;
+}
+
+/* SOBRE MIM */
+section.sobremim {
+    padding: 40px 4%;
+
+}
+
+section.sobremim .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+
+.sobremim .txt-sobremim {
+    color: black;
+    padding: 40px;
+    margin-top: 25px;
+
+}
+
+.sobremim .txt-sobremim h2 {
+    font-size: 40px;
+    color: #597445;
+    margin-bottom: 30px;
+    
+}
+
+.sobremim .txt-sobremim p {
+    margin: 20px 0;
+    text-align: justify;
+
+}
+
+.sobremim .txt-sobremim button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #597445;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px #729762;
+    transform: scale(1.05);
+    transition: .2s;
+
+
+}
+
+/* estilo rodape */
+footer {
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #597445;
+}
+
+
+footer .line-footer p a {
+    color: #597445;
+}
+
+.line-footer .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #597445;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 8px;
+}
